@@ -43,13 +43,13 @@ cd online-shop-microservices
 ZONE=us-central1-b
 gcloud container clusters create onlineboutique \
     --project=${PROJECT_ID} --zone=${ZONE} \
-    --machine-type=e2-standard-2 --num-nodes=4
+    --machine-type=e2-standard-2 --num-nodes=3
 ```
 
 4. **Deploy the sample app to the cluster.**
 
 ```
-kubectl apply -f ./release/kubernetes-manifests.yaml
+kubectl apply -f config.yaml
 ```
 
 5. **Wait for the Pods to be ready.**
