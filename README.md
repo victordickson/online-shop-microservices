@@ -1,4 +1,4 @@
-# online-shop-microservies
+# online-shop-microservices
 <p align="center">
 <img src="img/Hipster_HeroLogoCyan.svg" width="300" alt="Online Boutique" />
 </p>
